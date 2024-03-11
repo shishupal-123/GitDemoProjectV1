@@ -14,7 +14,6 @@ public class jtc {
     System.out.println(op1.flatMap(input->input));
     System.out.println("=============");
     Optional<Optional<String>> op2=op1.map(input1->input1.map(input2->input2.toUpperCase()));
-    System.out.println(op2);
-    
+    System.out.println("Add second line after creating BranchX");
  }
 }
